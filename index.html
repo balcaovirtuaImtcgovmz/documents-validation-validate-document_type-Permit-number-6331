@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html dir="ltr" lang="pt">
   <head>
@@ -12,7 +11,7 @@
     <!-- FAVICON -->
     <link rel="shortcut icon" type="image/x-icon" href="images/emblema.png">
     <!-- TITLE -->
-    <title>Balcao Virtual MTC | Permit</title>
+    <title> | Permit</title>
     <!-- BOOTSTRAP CSS -->
     <link id="style" href="css/bootstrap.min.css" rel="stylesheet">
     <!-- STYLE CSS -->
@@ -23,8 +22,11 @@
     <link href="css/icons.css" rel="stylesheet">
     <link href="css/introjs.css" rel="stylesheet">
     <link href="css/introjs-nazanin.css" rel="stylesheet">
-    <script type="text/javascript" src="https://me.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=gR3mt7YbXgLD8UgRP_M6imHzqpEP0VD_ZQOXtqc2e3VugeuoBHnbxhlDDKLOiwvy98kgg2TWLlvcDvaKevQV_8lPgzLV9iOjpmlw0iH-GpqY9wtWNJKQNCVMjwqU0QR8lMdWIySZheAdEPPdjENbX1kYpl6k1mUPAsvpTi9ZgY8" charset="UTF-8"></script><script src="js/pusher.min.js"></script>
     <script src="js/jquery.min.js"></script>
+    <script src="js/toastr.min.js"></script>
+    <link href="css/toastr.min.css" rel="stylesheet">
+    <script src="js/pusher.min.js"></script>
+    <script src="js/jquery.min_1.js"></script>
     <link rel="stylesheet" href="css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
     <style>
         .login100-form-title{
@@ -67,14 +69,23 @@
                       <!-- col-lg-6 start here -->
                       <div class="invoice-from">
                         <ul class="list-unstyled text-right">
-                          <li><strong>MINISTÉRIO DOS TRANSPORTES E COMUNICAÇÕES</strong></li>
+                          <li><strong>MINISTÉRIO DOS TRANSPORTES E LOGÍSTICA<br>
+                            </strong></li>
                           <li><strong>Direcção Nacional dos Transportes e
                               Segurança</strong></li>
                           <li><strong>Departamento dos Tranportes</strong></li>
-                          <li>Pedido de Exercicio de Atividade de Transporte
-                            Rodoviario</li>
-                          <li>Permit de Passageiros (Regular)</li>
-                          <li>AJO385MP</li>
+                          <li>Permit de Mecadoria (Regular) </li>
+                          <li>ADS585MC</li>
+                        </ul>
+                        <ul class="list-unstyled text-right">
+                          <li><strong>REPUBLIC OF MOZAMBIQUE</strong></li>
+                          <li><strong>MINISTRY OF TRANSPORT AND LOGISTICS<br>
+                            </strong></li>
+                          <li><strong>National Directorate of Transport and
+                              Safety</strong></li>
+                          <li><strong>Department of Transport</strong></li>
+                          <li>Permit of Mercadoria (Regular) </li>
+                          <li>ADS585MC</li>
                         </ul>
                       </div>
                     </div>
@@ -84,23 +95,21 @@
                       <div class="invoice-details mt25">
                         <div class="well">
                           <ul class="list-unstyled mb0">
-                            <li><strong>Código</strong> #17142</li>
-                            <li><strong>Data da Requisição:</strong> 07/02/2026</li>
+                            <li><strong>Código / Code</strong> #17397</li>
+                            <li><strong>Data da Requisição / Requisition Date</strong>
+                              20/03/2026</li>
                           </ul>
                         </div>
                       </div>
                       <div class="invoice-to mt25">
                         <ul class="list-unstyled">
-                          <li><strong>Cliente:</strong></li>
-JOSÉ ANTÓNIO CHICHAVA / TXOVA TXOVA<br>
-                        <ul class="list-unstyled">
-                          <li><strong>Requisitada Por</strong></li>
+                          <li><strong>Cliente / Client </strong></li>
+                          <li>LUCIANO LUXURY COACH, S.U. LDA<li>
+                          <li><strong>Requisitada Por / Requested By</strong></li>
                         </ul>
-JOSÉ ANTÓNIO CHICHAVA / TXOVA TXOVA<ul class="list-unstyled">
-                          <li><strong>NUIT:104 769 805<br>
-                            </strong></li>
-                          <li><strong></strong><br>
-                          </li>
+LUCIANO LUXURY COACH, S.U. LDA<br>
+                        <ul class="list-unstyled">
+                          <li><strong>NUIT:</strong>400 471 053</li>
                         </ul>
                       </div>
                       <div class="invoice-items">
@@ -110,67 +119,106 @@ JOSÉ ANTÓNIO CHICHAVA / TXOVA TXOVA<ul class="list-unstyled">
                           <table class="table table-bordered">
                             <thead>
                               <tr>
-                                <th class="per70 text-center">Descrição</th>
+                                <th class="per70 text-center">Descrição /
+                                  Description</th>
                               </tr>
                             </thead>
                             <tbody>
                               <tr>
-                                <th colspan="2" class="text-right">Referência:</th>
-                                <th class="text-center">20210732645</th>
-                              </tr>                     
-                              <tr>
-                                <th colspan="2" class="text-right">Data de
-                                  Emissão</th>
-                                <th class="text-center">18/02/2026</th>
+                                <th colspan="2" class="text-right">Referência /
+                                  Rerefence</th>
+                                <th class="text-center">2023980771</th>
                               </tr>
                               <tr>
                                 <th colspan="2" class="text-right">Data de
-                                  Validade:</th>
-                                <th class="text-center">18/05/2026</th>
+                                  Emissão / Emission Date</th>
+                                <th class="text-center">27/03/2026</th>
                               </tr>
                               <tr>
-                                <th colspan="2" class="text-right">Matricula:</th>
-                                <th class="text-center">AJO385MP</th>
+                                <th colspan="2" class="text-right">Data de
+                                  Validade / Valid Date</th>
+                                <th class="text-center">27/06/2026</th>
                               </tr>
                               <tr>
-                                <th colspan="2" class="text-right">Marca:</th>
-                                <th class="text-center">TOYOTA</th>
+                                <th colspan="2" class="text-right">Matricula /
+                                  Registration Car</th>
+                                <th class="text-center">ADS585MC<th>
+                              </tr>
+                              <tr>
+                                <th colspan="2" class="text-right">Marca / Brand</th>
+                                <th class="text-center">MITSUBISHI</th>
                               </tr>
                               <tr>
                                 <th colspan="2" class="text-right">Tipo de
-                                  Permit:</th>
-                                <th class="text-center">Passageiros (Regular)</th>
+                                  Permit / Permit Type</th>
+                                <th class="text-center">Mercadoria (Regular)</th>
                               </tr>
                               <tr>
-                                <th colspan="2" class="text-right">Capacidade
-                                  (peso bruto):</th>
-                                <th class="text-center">Até 15 lugares</th>
+                                <th colspan="2" class="text-right">Capacidade /
+                                  Capacity</th>
+                                <th class="text-center"><span style="color: black;"><span
+
+                                      style="font-family: &quot;Times New Roman&quot;&quot;serif&quot;;"></span></span><b
+
+                                    style="mso-bidi-font-weight:normal"><span style="font-size:9.5pt;line-height:107%;font-family:&quot;Times New Roman&quot;&quot;serif&quot;;
+mso-fareast-font-family:&quot;Times New Roman&quot;;color:black;mso-ansi-language:PT-BR;mso-fareast-language:EN-US;mso-bidi-language:AR-SA"
+
+                                      lang="PT-BR"></span></b>De 15.001 até 25.000kg<b
+
+                                    style="mso-bidi-font-weight:normal"><span style="font-size:9.5pt;line-height:107%;font-family:&quot;Times New Roman&quot;&quot;serif&quot;;
+mso-fareast-font-family:&quot;Times New Roman&quot;;color:black;mso-ansi-language:PT-BR;mso-fareast-language:EN-US;mso-bidi-language:AR-SA"
+
+                                      lang="PT-BR"></span></b><span
+
+                                    style="font-size:11.0pt;line-height:115%;
+font-family:&quot;Calibri&quot;&quot;sans-serif&quot;;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA"></span></th>
                               </tr>
                               <tr>
-                                <th colspan="2" class="text-right">Duração:</th>
-                                <th class="text-center">Dentro do prazo</th>
+                                <th colspan="2" class="text-right">Duração /
+                                  Duration</th>
+                                <th class="text-center">Dentro do Prazo / Valid</th>
                               </tr>
                               <tr>
-                                <th colspan="2" class="text-right">Configuração:</th>
-                                <th class="text-center">Até 15 lugares</th>
+                                <th colspan="2" class="text-right">Configuração
+                                  / Configuration</th>
+                                <th class="text-center">De 15.001 até 25.000kg<th>
                               </tr>
                               <tr>
-                                <th colspan="2" class="text-right">ORIGEM:</th>
-                                <th class="text-center">Maputo</th>
+                                <th colspan="2" class="text-right">ORIGEM /
+                                  ORIGIN </th>
+                                <th class="text-center">Moçambique</th>
                               </tr>
                               <tr>
-                                <th colspan="2" class="text-right">Transito:</th>
+                                <th colspan="2" class="text-right">Trânsito /
+                                  Transit</th>
                                 <th class="text-center">
-                                  <ol>
-                                  </ol>
-                                  <br>
-                                  <ol>
+                                  <ol style="background-color: white;">
+                                    <strong style="padding-left: 3px; color: red">
+                                      
+
+                                           </strong> <strong style="padding-left: 3px; color: red">
+                                        <!--  Africa do Sul,</strong> <strong style="padding-left: 3px; color: red">
+                                         Angola,</strong> <strong style="padding-left: 3px; color: red">
+                                       Botsuana,</strong> <strong style="padding-left: 3px; color: red">
+                                          Lesoto</strong> <strong style="padding-left: 3px; color: red">
+                                        
+                                     Malawi,</strong> <strong style="padding-left: 3px; color: red">
+                                     Mauricia,</strong> <strong style="padding-left: 3px; color: red">
+                                     Namibia,</strong> <strong style="padding-left: 3px; color: red">-->
+                                      
+                                     Eswatini,</strong> <strong style="padding-left: 3px; color: red">
+                                    Malawi,</strong> <strong style="padding-left: 3px; color: red">
+                                     
+                                    Zambia,</strong> <strong style="padding-left: 3px; color: red">
+                                        
+                                      Zimbabwe</strong>
                                   </ol>
                                 </th>
                               </tr>
                               <tr>
-                                <th colspan="2" class="text-right">Destino:</th>
-                                <th class="text-center">JOHANNESBURG</th>
+                                <th colspan="2" class="text-right">Destino /
+                                  Destiny</th>
+                                <th class="text-center">África do Sul</th>
                               </tr>
                             </tbody>
                           </table>
@@ -181,13 +229,12 @@ JOSÉ ANTÓNIO CHICHAVA / TXOVA TXOVA<ul class="list-unstyled">
                   <!-- End .row --> </div>
               </div>
               <!-- End .panel --> </div>
-            &nbsp;&nbsp;
             <!-- col-lg-12 end here --> </div>
         </div>
       </div>
     </div>
     <script src="js/livewire.js" data-turbo-eval="false" data-turbolinks-eval="false"></script>
-    <script data-turbo-eval="false" data-turbolinks-eval="false">window.livewire = new Livewire();window.Livewire = window.livewire;window.livewire_app_url = '';window.livewire_token = '4DZ5F6jF1JcWnKmIUrKPSxPtGPgU6UNVyk1WqHC8';window.deferLoadingAlpine = function (callback) {window.addEventListener('livewire:load', function () {callback();});};let started = false;window.addEventListener('alpine:initializing', function () {if (! started) {window.livewire.start();started = true;}});document.addEventListener("DOMContentLoaded", function () {if (! started) {window.livewire.start();started = true;}});</script>
+    <script data-turbo-eval="false" data-turbolinks-eval="false">window.livewire = new Livewire();window.Livewire = window.livewire;window.livewire_app_url = '';window.livewire_token = 'P4hCviixXkA9rhU3n8TZpwU5qifzkSaPYRhhMDIL';window.deferLoadingAlpine = function (callback) {window.addEventListener('livewire:load', function () {callback();});};let started = false;window.addEventListener('alpine:initializing', function () {if (! started) {window.livewire.start();started = true;}});document.addEventListener("DOMContentLoaded", function () {if (! started) {window.livewire.start();started = true;}});</script>
     <script>
 
     document.addEventListener("DOMContentLoaded", function() {
